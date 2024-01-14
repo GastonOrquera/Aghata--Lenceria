@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
         interval: 200
     });
 
+
+    /*START HAMBURGER*/
+
     var hamburger = document.querySelector(".hamburger");
 
     var nav = document.querySelector("nav");
@@ -51,6 +54,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     });
+
+
+    /*START DROPDOWN*/
 
     const caretIcon = document.querySelector('.bi-caret-down-fill');
     const dropdownMenu = document.querySelector('.nav__dropdown');
