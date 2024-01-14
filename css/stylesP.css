@@ -265,6 +265,21 @@ nav ul li a:hover {
     background-position: bottom;
 }
 
+.conteneinerModelos .divContenedorTipos .imgDiv2 {
+    /* background-image: url(../img/traje-bano-fondo-rosa-aislado.jpg); */
+    background-image: url(../img/beach-summer-holiday-vacation-bikini-traje-bano-concepto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.conteneinerModelos .divContenedorTipos .imgDiv3 {
+    background-image: url(../img/WhatsApp\ Image\ 2024-01-14\ at\ 07.47.07.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .conteneinerModelos .divContenedorTipos h2 {
     font-family: var(--fontT);
     text-align: center;
@@ -277,29 +292,17 @@ nav ul li a:hover {
     padding: .4rem 1rem;
     background-color: #d9a7c7;
     font-family: var(--fontP);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: 1s;
+    border-radius: 4px;
 }
 
 .btnModels:hover {
     background-color: #D3CCE3;
 }
 
-.conteneinerModelos .divContenedorTipos .imgDiv2 {
-    background-image: url(../img/red.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
-
-.conteneinerModelos .divContenedorTipos .imgDiv3 {
-    background-image: url(../img/imgProduct3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 /* END SECTION MODELs  */
 
