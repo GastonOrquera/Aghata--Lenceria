@@ -215,8 +215,12 @@ nav ul li a:hover {
 
 .conteneinerModelos {
     /* background-color: yellowgreen; */
-    height: max-content;
-    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.4rem 1rem;
+
 
 }
 
@@ -224,8 +228,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* background-color: blue; */
+    gap: 2rem;
 }
 
 .conteneinerModelos .divContenedorTipos .imgDiv1,
