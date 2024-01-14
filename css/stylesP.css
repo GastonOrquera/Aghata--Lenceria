@@ -363,10 +363,120 @@ nav ul li a:hover {
     background-color: #8649c4;
 }
 
-
-
-
 /* END SECTION PACKS */
+
+
+
+
+/* START PRODUCTOS DESTACADOS */
+
+.productBest {
+    margin: 0 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: violet; */
+}
+
+.productBest h2 {
+    text-align: center;
+    font-family: var(--fontP);
+    padding: 2rem 0;
+    font-size: 2.2rem;
+    color: #161616;
+}
+
+.productBest .conteiner-products {
+    /* background-color: springgreen; */
+
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.productBest .conteiner-products article {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    gap: 0.2rem;
+}
+
+.productBest .conteiner-products .img1 {
+    background-image: url(../img/bikini2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img2 {
+    background-image: url(../img/imgProduct8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img3 {
+    background-image: url(../img/imgProduct12.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img4 {
+    background-image: url(../img/bikini8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+
+.productBest .conteiner-products h3 {
+    font-family: var(--fontT);
+    padding: .4rem 0;
+}
+
+.productBest .conteiner-products p {
+    font-family: var(--fontP);
+}
+
+.productBest .conteiner-products .btn-article {
+    padding: .6rem 1.2rem;
+    background-color: #161616;
+    color: #D3CCE3;
+    border-radius: 6%;
+    margin: .4rem 0;
+    font-family: var(--fontP);
+    font-weight: 600;
+    transition: 1s;
+}
+
+.productBest .conteiner-products .btn-article:hover {
+
+    background-color: #8649c4;
+}
+
+
+
+
+
+
+/* END PRODUCTOS DESTACADOS */
+
+
+
 
 /* END MAIN */
 
@@ -606,10 +716,7 @@ nav ul li a:hover {
     }
 
     .conteiner-packs .img-packs {
-        background-image: url(../img/WhatsApp\ Image\ 2024-01-14\ at\ 07.47.06\ \(3\).jpeg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
         width: 18rem;
         height: 18rem;
         object-fit: cover;
@@ -621,7 +728,7 @@ nav ul li a:hover {
     .conteiner-packs .flex-titles {
 
         gap: 1rem;
-        padding: 1rem 1.5rem;
+        padding: 1rem 1.8rem;
     }
 
     .conteiner-packs .flex-titles h2 {
@@ -643,10 +750,53 @@ nav ul li a:hover {
     }
 
 
-
-
-
     /* END SECTION PACKS */
+
+    /* START PRODUCTOS DESTACADOS */
+
+
+    .productBest {
+        margin: 0 0rem;
+
+    }
+
+    .productBest h2 {
+        padding: 1.2rem 0;
+        font-size: 1.8rem;
+    }
+
+    .productBest .conteiner-products {
+        /* background-color: springgreen; */
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .productBest .conteiner-products .img1 {
+
+        width: 10.2rem;
+        height: 10.2rem;
+    }
+
+    .productBest .conteiner-products .img2 {
+
+        width: 10.2rem;
+        height: 10.2rem;
+    }
+
+    .productBest .conteiner-products .img3 {
+
+        width: 10.2rem;
+        height: 10.2rem;
+    }
+
+    .productBest .conteiner-products .img4 {
+
+        width: 10.2rem;
+        height: 10.2rem;
+    }
+
+    /* END PRODUCTOS DESTACADOS */
 
 
     /* END MEDIA MAIN */
