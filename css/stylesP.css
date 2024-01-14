@@ -294,8 +294,10 @@ nav ul li a:hover {
 }
 
 .btnModels {
-    padding: .4rem 1rem;
-    background-color: #d9a7c7;
+    padding: .4rem 1.2rem;
+    color: #D3CCE3;
+    /* background-color: #d9a7c7; */
+    background-color: #161616;
     font-family: var(--fontP);
     font-weight: 600;
     text-transform: uppercase;
@@ -305,7 +307,7 @@ nav ul li a:hover {
 }
 
 .btnModels:hover {
-    background-color: #D3CCE3;
+    background-color: #8649c4;
 }
 
 
@@ -608,8 +610,9 @@ nav ul li a:hover {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 86%;
-        height: 16rem;
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin: 0 auto;
@@ -623,14 +626,14 @@ nav ul li a:hover {
 
     .conteiner-packs .flex-titles h2 {
         font-family: var(--fontT);
-        color: #161616;
+
         font-size: 1.8rem;
 
     }
 
     .conteiner-packs .flex-titles p {
         font-family: var(--fontP);
-        color: #161616;
+
     }
 
     .conteiner-packs .btn-packs {
