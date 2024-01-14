@@ -16,26 +16,6 @@
     --fontP: 'Quicksand', sans-serif;
 }
 
-/* Barra de desplazamiento */
-::-webkit-scrollbar {
-    width: 10px;
-    scrollbar-width: thin;
-    scrollbar-color: #8649c4 #d2a4ff;
-
-}
-
-::-webkit-scrollbar-track {
-    background-color: #d2a4ff;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #8649c4;
-}
-
-/* Firefox */
-/* Estas reglas también se aplican a la barra de desplazamiento en Firefox */
-
-
 header {
     background-color: #FFDEF3;
     display: flex;
