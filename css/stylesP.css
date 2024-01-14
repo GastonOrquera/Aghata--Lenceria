@@ -16,9 +16,6 @@
     --fontP: 'Quicksand', sans-serif;
 }
 
-
-
-
 header {
     background-color: #FFDEF3;
     display: flex;
@@ -116,7 +113,6 @@ nav ul li a:hover {
 
 
 
-
 /* START MAIN */
 
 .conteiner-main {
@@ -128,19 +124,19 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    /* padding: 1rem 1rem; */
+    padding-bottom: 1rem;
 }
 
-.conteiner-main .bi-arrow-down-circle {
-    font-size: 2.6rem;
-    margin: 2rem 0;
-    transition: 2s;
+.conteiner-main a {
+    text-decoration: none;
     animation: move 4s ease-in-out infinite;
+    font-family: var(--fontT);
+    margin: 2rem 0;
 }
 
 @keyframes move {
     0% {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 
     50% {
@@ -152,10 +148,15 @@ nav ul li a:hover {
     }
 }
 
-.bi-arrow-down-circle:hover {
+.conteiner-main .bi-arrow-down-circle {
+    font-size: 2.8rem;
+    transition: 2s;
+    color: #161616;
+}
+
+.conteiner-main .bi-arrow-down-circle:hover {
     color: #8649c4;
-    transform: scale(1.1);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* SLIDER */
@@ -184,8 +185,123 @@ nav ul li a:hover {
 
 /* END SLIDER */
 
+.conteinerM {
+
+    background: #d9a7c7;
+
+    background: -webkit-linear-gradient(to right, #fffcdc, #f3c0e0);
+
+    background: linear-gradient(to right, #fffcdc, #f3c0e0);
+
+    padding: 0 1.2rem;
+}
+
+.conteinerM .title {
+    font-family: var(--fontP);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.conteinerM .hr {
+    border-color: #8649c4;
+    width: 16%;
+    margin: 0 auto;
+}
+
+/* SECTION MODELs */
+
+.conteneinerModelos {
+    /* background-color: yellowgreen; */
+    height: max-content;
+    margin: 2rem 2rem;
+
+}
+
+.conteneinerModelos .divContenedorTipos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: blue; */
+}
+
+.conteneinerModelos .divContenedorTipos .imgDiv1,
+.conteneinerModelos .divContenedorTipos .imgDiv2,
+.conteneinerModelos .divContenedorTipos .imgDiv3 {
+    width: 24rem;
+    height: 24rem;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
 
 
+}
+
+.conteneinerModelos .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1616165e;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+
+}
+
+.conteneinerModelos .divContenedorTipos .imgDiv1 {
+    background-image: url(../img/blue.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.conteneinerModelos .divContenedorTipos h2 {
+    font-family: var(--fontT);
+    text-align: center;
+    color: #D3CCE3;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+}
+
+.btnModels {
+    padding: .4rem 1rem;
+    background-color: #d9a7c7;
+    font-family: var(--fontP);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+.btnModels:hover {
+    background-color: #D3CCE3;
+}
+
+.conteneinerModelos .divContenedorTipos .imgDiv2 {
+    background-image: url(../img/red.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.conteneinerModelos .divContenedorTipos .imgDiv3 {
+    background-image: url(../img/imgProduct3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* END SECTION MODELs  */
+
+
+/* END MAIN */
 
 
 
@@ -381,9 +497,32 @@ nav ul li a:hover {
     }
 
     .conteiner-main .bi-arrow-down-circle {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
+    /* SECTION MODELS */
+
+    .conteinerM .title {
+        padding: 1rem 0;
+    }
+
+    .conteneinerModelos .divContenedorTipos {
+        flex-direction: column;
+
+        gap: 1.2rem;
+    }
+
+    .conteneinerModelos .divContenedorTipos .imgDiv1,
+    .conteneinerModelos .divContenedorTipos .imgDiv2,
+    .conteneinerModelos .divContenedorTipos .imgDiv3 {
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+
+
+    }
+
+    /* END SECTION MODELS */
 
     /* END MEDIA MAIN */
 }
