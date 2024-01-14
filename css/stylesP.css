@@ -442,6 +442,42 @@ nav ul li a:hover {
     width: 16rem;
 }
 
+.productBest .conteiner-products .img5 {
+    background-image: url(../img/imgProduct3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img6 {
+    background-image: url(../img/imgProduct7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img7 {
+    background-image: url(../img/bikini9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
+.productBest .conteiner-products .img8 {
+    background-image: url(../img/bikini10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 16rem;
+}
+
 
 .productBest .conteiner-products h3 {
     font-family: var(--fontT);
@@ -467,9 +503,6 @@ nav ul li a:hover {
 
     background-color: #8649c4;
 }
-
-
-
 
 
 
@@ -772,25 +805,14 @@ nav ul li a:hover {
         grid-template-columns: 1fr 1fr;
     }
 
-    .productBest .conteiner-products .img1 {
-
-        width: 10.2rem;
-        height: 10.2rem;
-    }
-
-    .productBest .conteiner-products .img2 {
-
-        width: 10.2rem;
-        height: 10.2rem;
-    }
-
-    .productBest .conteiner-products .img3 {
-
-        width: 10.2rem;
-        height: 10.2rem;
-    }
-
-    .productBest .conteiner-products .img4 {
+    .productBest .conteiner-products .img1,
+    .productBest .conteiner-products .img2,
+    .productBest .conteiner-products .img3,
+    .productBest .conteiner-products .img4,
+    .productBest .conteiner-products .img5,
+    .productBest .conteiner-products .img6,
+    .productBest .conteiner-products .img7,
+    .productBest .conteiner-products .img8 {
 
         width: 10.2rem;
         height: 10.2rem;
