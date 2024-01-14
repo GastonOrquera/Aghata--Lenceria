@@ -241,7 +241,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #000000;
+
 
 
 }
@@ -255,6 +255,11 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     gap: 1rem;
+
+}
+
+.conteneinerModelos .background:hover {
+    background-color: #0c0c0c5e;
 
 }
 
@@ -306,6 +311,60 @@ nav ul li a:hover {
 
 /* END SECTION MODELs  */
 
+/* START SECTION PACKS */
+
+.conteiner-packs {
+    display: flex;
+    align-items: center;
+
+    margin: 0 3.2rem;
+    /* background-color: rgba(238, 130, 238, 0.021); */
+}
+
+.conteiner-packs .img-packs {
+    background-image: url(../img/WhatsApp\ Image\ 2024-01-14\ at\ 07.47.06\ \(3\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 32rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.conteiner-packs .flex-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.conteiner-packs .flex-titles h2 {
+    font-family: var(--fontT);
+    color: #161616;
+    font-size: 2.2rem;
+}
+
+.conteiner-packs .flex-titles p {
+    font-family: var(--fontP);
+    color: #161616;
+}
+
+.conteiner-packs .btn-packs {
+    width: max-content;
+    padding: .6rem 1.2rem;
+    background-color: #161616;
+    color: #D3CCE3;
+}
+
+.conteiner-packs .btn-packs:hover {
+    background-color: #8649c4;
+}
+
+
+
+
+/* END SECTION PACKS */
 
 /* END MAIN */
 
@@ -529,6 +588,63 @@ nav ul li a:hover {
     }
 
     /* END SECTION MODELS */
+
+
+
+    /* START SECTION PACKS */
+
+
+    .conteiner-packs {
+        align-items: flex-start;
+
+
+        flex-direction: column;
+        margin: 0;
+        /* background-color: rgba(238, 130, 238, 0.021); */
+    }
+
+    .conteiner-packs .img-packs {
+        background-image: url(../img/WhatsApp\ Image\ 2024-01-14\ at\ 07.47.06\ \(3\).jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 86%;
+        height: 16rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin: 0 auto;
+    }
+
+    .conteiner-packs .flex-titles {
+
+        gap: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .conteiner-packs .flex-titles h2 {
+        font-family: var(--fontT);
+        color: #161616;
+        font-size: 1.8rem;
+
+    }
+
+    .conteiner-packs .flex-titles p {
+        font-family: var(--fontP);
+        color: #161616;
+    }
+
+    .conteiner-packs .btn-packs {
+
+        padding: .4rem 1rem;
+
+    }
+
+
+
+
+
+    /* END SECTION PACKS */
+
 
     /* END MEDIA MAIN */
 }
