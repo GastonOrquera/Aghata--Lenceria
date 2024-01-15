@@ -490,7 +490,7 @@ nav ul li a:hover {
 
 .productBest .conteiner-products .barri {
     color: #8649c4;
-
+    font-weight: 460;
 }
 
 .productBest .conteiner-products .btn-article {
@@ -507,6 +507,18 @@ nav ul li a:hover {
 .productBest .conteiner-products .btn-article:hover {
 
     background-color: #8649c4;
+}
+
+.class-swal {
+    background: #d9a7c7;
+
+    background: -webkit-linear-gradient(to right, #fffcdc, #f3c0e0);
+
+    background: linear-gradient(to right, #fffcdc, #f3c0e0);
+
+    font-family: var(--fontP);
+    color: #161616;
+
 }
 
 

@@ -71,6 +71,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+
+/*Sweet alert btn comprar*/
+
+document.addEventListener('DOMContentLoaded', function () {
+    const buyButtons = document.querySelectorAll('.btn-article');
+
+    function mostrarAlerta() {
+        Swal.fire({
+            title: 'Direccionando a WhatsApp...',
+            confirmButtonText: 'Aceptar',
+            backdrop: 'true',
+            timer: 2000,
+            timerProgressBar: true,
+            customClass: {
+                popup: 'class-swal'
+            }
+        }).then(() => {
+
+            buyButtons.forEach(button => {
+                button.onclick = mostrarAlerta;
+            });
+        });
+    }
+
+
+    buyButtons.forEach(button => {
+        button.onclick = mostrarAlerta;
+    });
+});
+
+/*end Sweet alert btn comprar*/
+
+
 /* SLIDER */
 
 let sliderInner = document.querySelector('.slider--inner');
@@ -94,4 +128,7 @@ setInterval(function () {
 
 
 }, 2000);
+
+
+
 
