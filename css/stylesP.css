@@ -354,7 +354,7 @@ nav ul li a:hover {
 
 .conteiner-packs .btn-packs {
     width: max-content;
-    padding: .6rem 1.2rem;
+    padding: .6rem 1.6rem;
     background-color: #161616;
     color: #D3CCE3;
 }
@@ -862,11 +862,11 @@ footer .boxRedes hr {
 
     }
 
-    .conteiner-packs .btn-packs {
+    /* .conteiner-packs .btn-packs {
 
-        padding: .4rem 1rem;
+        
 
-    }
+    } */
 
 
     /* END SECTION PACKS */
