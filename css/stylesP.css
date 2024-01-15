@@ -509,33 +509,102 @@ nav ul li a:hover {
     background-color: #8649c4;
 }
 
+.btn-more-products {
+    background-color: #161616;
+    padding: 1rem 2rem;
+    color: #D3CCE3;
+    font-family: var(--fontP);
+    margin: 2.4rem 0;
+    transition: 1s;
+}
+
+.btn-more-products:hover {
+    background-color: #8649c4;
+}
+
+
 .class-swal {
     background: #d9a7c7;
 
     background: -webkit-linear-gradient(to right, #fffcdc, #f3c0e0);
 
     background: linear-gradient(to right, #fffcdc, #f3c0e0);
-
+    font-size: 1rem;
     font-family: var(--fontP);
     color: #161616;
 
 }
 
-
-
 /* END PRODUCTOS DESTACADOS */
-
-
-
 
 /* END MAIN */
 
 
 
+/* START FOOTER */
+
+
+
+footer {
+    background-color: #FFDEF3;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+footer .a-f {
+    width: max-content;
+}
+
+footer .logoDiv {
+
+    height: 6rem;
+    width: 6rem;
+    background-image: url(../img/logoo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 52%;
+
+}
+
+
+footer .boxRedes {
+    display: flex;
+    gap: 0.6rem;
+    flex-direction: column;
+}
+
+footer .boxRedes h3 {
+    font-family: var(--fontP);
+    font-size: 1.6rem;
+}
+
+footer .boxRedes p {
+    font-family: var(--fontP);
+    margin-top: 1rem;
+}
+
+footer .boxRedes p a {
+    color: #161616;
+}
+
+footer .boxRedes .bi-phone,
+footer .boxRedes .bi-chat-right-heart,
+footer .boxRedes .bi-instagram {
+    color: #8649c4;
+}
+
+
+footer .boxRedes hr {
+    border-color: #8649c4;
+}
 
 
 
 
+/* END FOOTER */
 
 
 
@@ -835,8 +904,20 @@ nav ul li a:hover {
         height: 10.2rem;
     }
 
+    .class-swal {
+        font-size: .6rem;
+    }
+
     /* END PRODUCTOS DESTACADOS */
 
-
     /* END MEDIA MAIN */
+
+    /* START FOOTER MEDIA */
+
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* END FOOTER MEDIA */
 }
