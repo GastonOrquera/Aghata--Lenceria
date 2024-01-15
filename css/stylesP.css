@@ -488,6 +488,11 @@ nav ul li a:hover {
     font-family: var(--fontP);
 }
 
+.productBest .conteiner-products .barri {
+    color: #8649c4;
+    font-size: 1.4rem;
+}
+
 .productBest .conteiner-products .btn-article {
     padding: .6rem 1.2rem;
     background-color: #161616;
