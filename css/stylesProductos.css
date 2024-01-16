@@ -195,7 +195,10 @@ nav ul li a:hover {
 .conteinder-main-productos .bikini9,
 .conteinder-main-productos .bikini10,
 .conteinder-main-productos .bikini11,
-.conteinder-main-productos .bikini12 {
+.conteinder-main-productos .bikini12,
+.conteinder-main-productos .packless1,
+.conteinder-main-productos .packless2,
+.conteinder-main-productos .packless3 {
     height: 20rem;
     width: 16rem;
 }
@@ -378,6 +381,27 @@ nav ul li a:hover {
     background-position: center;
 }
 
+.conteinder-main-productos .packless1 {
+    background-image: url(../img/packless.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteinder-main-productos .packless2 {
+    background-image: url(../img/packless2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteinder-main-productos .packless3 {
+    background-image: url(../img/packless3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* END CONJUNTOS */
 
 
@@ -536,10 +560,38 @@ nav ul li a:hover {
         margin-bottom: 2rem;
     }
 
-    .conteinder-main-productos article .conjunto1 {
+    .conteinder-main-productos .conjunto1,
+    .conteinder-main-productos .conjunto2,
+    .conteinder-main-productos .conjunto3,
+    .conteinder-main-productos .conjunto4,
+    .conteinder-main-productos .conjunto5,
+    .conteinder-main-productos .conjunto6,
+    .conteinder-main-productos .conjunto7,
+    .conteinder-main-productos .conjunto8,
+    .conteinder-main-productos .conjunto9,
+    .conteinder-main-productos .conjunto10,
+    .conteinder-main-productos .conjunto11,
+    .conteinder-main-productos .conjunto12,
+    .conteinder-main-productos .conjunto13,
+    .conteinder-main-productos .conjunto14,
+    .conteinder-main-productos .bikini1,
+    .conteinder-main-productos .bikini2,
+    .conteinder-main-productos .bikini3,
+    .conteinder-main-productos .bikini4,
+    .conteinder-main-productos .bikini5,
+    .conteinder-main-productos .bikini6,
+    .conteinder-main-productos .bikini7,
+    .conteinder-main-productos .bikini8,
+    .conteinder-main-productos .bikini9,
+    .conteinder-main-productos .bikini10,
+    .conteinder-main-productos .bikini11,
+    .conteinder-main-productos .bikini12,
+    .conteinder-main-productos .packless1,
+    .conteinder-main-productos .packless2,
+    .conteinder-main-productos .packless3 {
+
         width: 10.2rem;
         height: 10.2rem;
-
     }
 
     .conteinder-main-productos .conteiner-two-grid {
