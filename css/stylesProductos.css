@@ -399,7 +399,8 @@ nav ul li a:hover {
     /* CONTEINER PRODUCTOS CONJUNTOS */
 
     .conteinder-main-productos {
-        align-items: center;
+        /* align-items: center; */
+        padding: 0 1.2rem;
     }
 
     .conteinder-main-productos h2 {
@@ -412,9 +413,11 @@ nav ul li a:hover {
 
 
     .conteinder-main-productos .conteiner-articles {
-
-        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
     }
 
     .conteinder-main-productos article .conjunto1 {
@@ -443,6 +446,7 @@ nav ul li a:hover {
     footer {
         flex-direction: column;
         gap: 2rem;
+
     }
 
     /* END FOOTER MEDIA */
