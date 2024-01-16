@@ -324,7 +324,7 @@ nav ul li a:hover {
 }
 
 .conteiner-packs .img-packs {
-    background-image: url(../img/WhatsApp\ Image\ 2024-01-14\ at\ 07.47.06\ \(3\).jpeg);
+    background-image: url(../img/packless.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -602,72 +602,7 @@ footer .boxRedes hr {
 }
 
 
-
-
 /* END FOOTER */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 1000px) {
@@ -781,13 +716,6 @@ footer .boxRedes hr {
     /* END SLIDER */
 
     .conteiner-main {
-        background: #D3CCE3;
-        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
-        background: linear-gradient(to right, #E9E4F0, #D3CCE3);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         gap: 2rem;
         padding: 1rem 1rem;
     }
