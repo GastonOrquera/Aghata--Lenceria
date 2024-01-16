@@ -129,6 +129,6 @@ setInterval(function () {
 
 }, 2000);
 
-
+/* END SLIDER */
 
 

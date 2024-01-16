@@ -157,7 +157,7 @@ nav ul li a:hover {
 
 .conteinder-main-productos .conteiner-two-grid {
     display: grid;
-
+    gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
